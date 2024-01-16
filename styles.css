@@ -1,0 +1,59 @@
+header {
+    background-color: #333; /* Hintergrundfarbe der Leiste */
+    color: #fff; /* Schriftfarbe */
+    padding: 10px 0; /* Innenabstand oben/unten 10px, links/rechts 0 */
+}
+
+nav ul {
+    list-style-type: none; /* Entfernt Aufzählungspunkte */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Elemente nebeneinander anordnen */
+    margin-right: 50px; /* Abstand zwischen den Elementen */
+}
+
+nav a {
+    text-decoration: none; /* Keine Unterstreichung für Links */
+    color: #fff; /* Schriftfarbe der Links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Unterstreichung bei Hover (Mausüber) */
+}
+main {
+    background-color: #fffbfb;
+  }
+  
+  img{border-radius: 15px;
+    transition: all .3s ease-out
+  
+  }
+  
+  img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .bild-container {
+    display: flex;
+  }
+  
+  .bild-container img {
+    margin: 5px; 
+  }
+  main {
+    background-color: #ffffff; /* Hintergrundfarbe der Leiste */
+    color: #000000; /* Schriftfarbe */
+    padding: 50px 0; /* Innenabstand oben/unten 10px, links/rechts 0 */
+  }
+  header {
+    font-size: 1.5em;
+    text-align: center;; 
+  }
+  img {
+    margin-top: 20px;
+  }
+ 
+ 
